@@ -1,0 +1,31 @@
+{
+  "Title": "Admin Essentials TTT Minigame \u0026 Class module",
+  "Type": "addon",
+  "Org": "smartmario",
+  "Ident": "ae_ttt_sm1_class_minigame",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "Resources": null,
+  "MenuResources": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "PackageReferences": [
+    "thieves.terrortown",
+    "smartmario.ttt_sm1minigames",
+    "smartmario.classes_manager_ttt",
+    "ryan.adminessentials",
+    "ryan.aettt"
+  ],
+  "EditorReferences": null,
+  "Metadata": {
+    "CsProjName": "",
+    "PrimaryAsset": "",
+    "PhysicsMins": "-1,-1,-1",
+    "PhysicsMaxs": "1,1,1",
+    "RenderMins": "-1,-1,-1",
+    "RenderMaxs": "-1,-1,-1",
+    "ParentPackage": "thieves.terrortown"
+  }
+}
