@@ -10,7 +10,7 @@ public class ClassCommand : BaseCommand
     {
         commandName = "class";
         org = "ttt";
-        helpText = "Open the class UI.\n \n (ADMINS BEWARE) Also makes you at least a moderator in the internal TTT moderation system. You can view what permissions this grants at https://wiki.threethieves.org/admin_commands.";
+        helpText = "Open the class manager UI.\n \n (ADMINS BEWARE) Also makes you at least a moderator in the internal TTT moderation system. You can view what permissions this grants at https://wiki.threethieves.org/admin_commands.";
     }
 
     protected override void DoCommand(IClient callingUser, params string[] args)
@@ -37,7 +37,7 @@ public class MinigameCommand : BaseCommand
 	{
 		commandName = "minigame";
 		org = "ttt";
-		helpText = "Open the minigame UI.\n \n (ADMINS BEWARE) Also makes you at least a moderator in the internal TTT moderation system. You can view what permissions this grants at https://wiki.threethieves.org/admin_commands.";
+		helpText = "Open the minigame manager UI.\n \n (ADMINS BEWARE) Also makes you at least a moderator in the internal TTT moderation system. You can view what permissions this grants at https://wiki.threethieves.org/admin_commands.";
 	}
 
 	protected override void DoCommand( IClient callingUser, params string[] args )
